@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Cream</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <img src="./images/phone/header/logo.png" alt="logo" width="48px" />
+
+        <div class="container">
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+
+          <ul class="menu">
+            <li><a href="" class="link">About</a></li>
+            <li><a href="" class="link">Products</a></li>
+            <li><a href="" class="link">Contacts</a></li>
+            <li><a href="" class="link">Career</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="products"></section>
+      <section class="about"></section>
+      <section class="advanatages"></section>
+      <section class="gallery"></section>
+      <section class="reviews"></section>
+      <section class="contacts">
+        <div class="container">
+          <h2 class="visually-hidden">contacts</h2>
+          <ul>
+            <li class="cont-card">
+              <h3 class="cont-card__title">Cafe</h3>
+              <ul class="cont-card__list location">
+                <li class="cont-card__city">Chicago</li>
+                <li class="cont-card__addr">
+                  <a href=""
+                    >10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</a
+                  >
+                </li>
+              </ul>
+              <ul class="cont-card__list timing">
+                <li class="cont-card__days">Monday - Friday</li>
+                <li class="cont-card__time">06:00 AM - 10:00 PM</li>
+                <li class="cont-card__days">Saturday - Sunday</li>
+                <li class="cont-card__time">08:00 AM - 16:00 PM</li>
+              </ul>
+              <ul class="cont-card__list">
+                <li class="cont-card__tel">
+                  <a href="tel:+610383766284">+61(0) 383 766 284</a>
+                </li>
+                <li>
+                  <a class="cont-card__mail" href="mailto:noreply@envato.com"
+                    >noreply@envato.com</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>

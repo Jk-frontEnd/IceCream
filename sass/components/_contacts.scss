@@ -1,0 +1,8 @@
+.cont-card {
+    background-color: var(--color-text-main);
+    color: var(--color-text-sec);
+
+    &__title {
+        background-color: var(--color-yellow);
+    }
+}
